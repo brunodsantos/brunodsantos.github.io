@@ -1,0 +1,41 @@
+.grid{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+}
+
+.grid div{
+    width: 20px;
+    height: 20px;
+}
+
+.snake{
+    background-color: darkgreen;
+}
+
+.apple{
+    background-color: red;
+}
+
+h1{
+    color: darkgreen;
+    font-size: 50px;
+}
+
+button{
+    color: white;
+    border-style: solid;
+    border-color: darkgreen;
+    border-radius: 5px;
+    margin: 5px 0 ;
+    background-color: darkgreen;
+    height: 30px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.score{
+    margin: 5px 0;
+}

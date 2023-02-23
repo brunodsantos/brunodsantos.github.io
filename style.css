@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: #01132d;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 70px ;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style:none;
+    margin-inline: 30px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover a {
+    color: rgba(253, 189, 49);
+    transition: 0.3s;
+}
+
+.container{
+    padding: 0 100px;
+    margin-top: 50px;
+}
+
+.text h1{
+    font-size: 70px;
+    line-height: 100px;
+    letter-spacing: 2px;
+    height: 250px;
+}
+
+.text p{
+    margin-top: auto;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.btn{
+    position: fixed;
+    margin-top: 180px;
+    grid-area: 2 / 1 / 2 / 1;
+}
+
+.btn button{
+    padding: 10px 40px;
+    font-size: 16px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.btn button:nth-child(1){
+    background: rgba(253, 189, 49);
+    border-color: rgba(253, 189, 49);
+    color:#01132d;
+}
+
+.profile img{
+    position: fixed;
+    bottom: 0;
+    width: 350px;
+    right: 0;  
+    z-index: -1;
+}
+
+
+#contact_box{
+    border: 2px solid rgba(253, 189, 49);
+    border-radius: 5px;
+    margin-right: 35%;
+    margin-left: 30px;
+    display: none;
+    grid-area: 1 / 2 / 3 / 3;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.align{
+    display: flex;
+}
+
+.contact_info img{
+    width: 6%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
+.socials img{
+    width: 8%;
+    margin-left: 20px;
+}
+
+footer p{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2{
+    padding: 0 100px;
+    font-size: 40px;
+    line-height: 100px;
+    letter-spacing: 2px;
+    height: 150px;
+}
+
+.programing_languages{
+    padding: 0 100px;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: "html css javascript";
+    grid-template-columns: 1fr 1fr fr;
+}
+
+.programing_languages div{
+    border: 2px solid rgba(253, 189, 49, 0.7);
+    border-radius: 5px;
+    background-color: rgba(253, 189, 49, 0.7);
+    
+}
+
+.programing_languages h3{
+    justify-content: center;
+    display: flex;
+    margin: 5px auto;
+}
+
+.programing_languages img{
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+}
+
+.programing_languages h4{
+    justify-content: center;
+    display: flex;
+    margin: 5px auto;
+}
+
+.programing_languages a{
+    justify-content: center;
+    display: flex;
+    margin: 5px auto;
+}
+
+.worklist{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(253, 189, 49));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.layer button{
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgba(253, 189, 49);
+    border-color: rgba(253, 189, 49);
+    color:#01132d;
+}
+
+.layer h3{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:400px){
+    
+}
