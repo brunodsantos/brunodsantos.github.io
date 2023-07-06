@@ -59,7 +59,7 @@ nav ul li:hover a {
 
 .text p{
     margin-top: auto;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 1px;
     line-height: 30px;
 }
@@ -89,10 +89,13 @@ nav ul li:hover a {
 
 .profile img{
     position: fixed;
-    bottom: 0;
-    width: 350px;
-    right: 0;  
+    bottom: 310px;
+    width: 250px;
+    right: 50px;  
     z-index: -1;
+    border-radius: 50%;
+    border: 1px solid rgba(253, 189, 49) ;
+    background-color: rgba(248, 203, 107) ;
 }
 
 
@@ -149,19 +152,20 @@ h2{
     height: 150px;
 }
 
+
 .programing_languages{
     padding: 0 100px;
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
     grid-gap: 1em;
-    grid-template-areas: "html css javascript";
-    grid-template-columns: 1fr 1fr fr;
 }
 
 .programing_languages div{
     border: 2px solid rgba(253, 189, 49, 0.7);
     border-radius: 5px;
     background-color: rgba(253, 189, 49, 0.7);
-    
+    /* height: min-content; */
+    margin-bottom: 1em;
 }
 
 .programing_languages h3{
@@ -180,13 +184,29 @@ h2{
 .programing_languages h4{
     justify-content: center;
     display: flex;
-    margin: 5px auto;
+    margin: 5px 30px;
 }
 
 .programing_languages a{
     justify-content: center;
     display: flex;
     margin: 5px auto;
+    text-decoration: none;
+}
+
+.programing_languages a:hover{
+    text-decoration: underline;
+}
+
+#ext_link{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.name_link{
+    justify-content: center;
+    display: flex;
 }
 
 .worklist{
