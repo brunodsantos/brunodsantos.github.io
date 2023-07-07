@@ -65,9 +65,7 @@ nav ul li:hover a {
 }
 
 .btn{
-    position: fixed;
-    margin-top: 180px;
-    grid-area: 2 / 1 / 2 / 1;
+    margin-top: 20px;
 }
 
 .btn button{
@@ -89,29 +87,28 @@ nav ul li:hover a {
 
 .profile img{
     position: fixed;
-    bottom: 310px;
-    width: 250px;
-    right: 50px;  
+    width: 225px;
     z-index: -1;
     border-radius: 50%;
     border: 1px solid rgba(253, 189, 49) ;
     background-color: rgba(248, 203, 107) ;
+    right: 50px;
 }
 
 
 #contact_box{
+    background-color: rgba(253, 189, 49, 0.7);
     border: 2px solid rgba(253, 189, 49);
     border-radius: 5px;
     margin-right: 35%;
     margin-left: 30px;
     display: none;
     grid-area: 1 / 2 / 3 / 3;
-    
 }
 
 .grid{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 65% 5%;
 }
 
 .align{
